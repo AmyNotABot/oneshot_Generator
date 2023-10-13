@@ -1,0 +1,23 @@
+
+
+.tabs-container{
+    row-gap: 10px;
+    background-color: #f0d274;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.tab {
+    padding: 20px;
+    margin: 100 px;
+    background-color: #f0d2f0;
+    max-block-size: fit-content;
+    overflow: scroll;
+    overflow: auto;
+};
+
+

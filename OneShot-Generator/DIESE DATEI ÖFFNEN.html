@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="index.css" rel="stylesheet">
+<title>WHO ARE YOU??</title>
+</head>
+<body>
+
+<p>Hier können Sie ein Würfelergebnis genrieren lassen, falls Sie eines brauchen:</p>
+<button id="button1" onclick="w6Ergebnis()">WÜRFLE EINEN W6</button>
+<span id="span"></span> <br> <br>
+
+<button id="button2" onclick="w20Ergebnis()">WÜRFLE EINEN W20</button>
+<span id="span2"></span> <br> <br>
+
+<button id="button3" onclick="w100Ergebnis()">WÜRFLE EINEN W100</button>
+<span id="span3"></span> 
+<br> <br>
+<br> <br>
+<br> <br>
+<p>Sobald Sie wissen aus welchem Land Sie stammen können Sie hier Ihren Namen eintragen.</p>
+<input type="text" value="Name">
+
+<h3>Sind Sie frei, versklavt oder angestellt?</h3>
+<button id="button4" onclick="randomListeHerkunft()">Randomize!</button>
+<span id="span4"></span>
+<!-- <p>Wenn ja, woher?</p>
+<input type="text" value="Land">
+<br> -->
+
+<h3>Was sind Sie von Beruf? </h3>
+<button id="button5" onclick="randomListeJobs()">Randomize!</button>
+<span id="span5"></span>
+<br>
+
+<h3>Wir alle haben Angst vor etwas. Wovor haben Sie Angst?</h3>
+<button id="button6" onclick="randomListeLaster()">Randomize!</button>
+<span id="span6"></span>
+<br>
+
+<!-- <h3>Was ist der Grund für Ihre Überfahrt?</h3>
+<button id="button8" onclick="randomListeFahrt()">Randomize!</button>
+<span id="span8"></span>
+<br> -->
+
+<script src="index.js"></script>
+</body>
+</html>
